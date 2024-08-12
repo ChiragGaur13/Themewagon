@@ -1,3 +1,6 @@
+
+import Autoplay from "embla-carousel-autoplay"
+
 import {
   Carousel,
   CarouselContent,
@@ -5,6 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+
 
 function Body() {
 
@@ -116,8 +120,8 @@ function Body() {
         </div>
 
 
-        <div className='lg:flex pt-10 md:pt-10 lg:pt-60 pl-5  xl:pl-20 lg:pl-15 md:px-20 sm:px-20 py-24 w-full '>
-          <div className='flex lg:w-[33%] py-15'>
+        <div className='lg:flex pt-10 md:pt-10 lg:pt-60 pl-5  xl:pl-20 lg:pl-15 md:px-20 sm:px-20 py-24 w-full  '>
+          <div className='flex lg:w-[33%] py-15 pb-10'>
             <div className=''>
               <img src='../public/product-1.png' className='w-32 absolute z-10'></img>
               <div className='relative h-24 w-24 bg-gray-200 rounded-xl pt-5 pl-15 z-0 top-4 left-5'></div>
@@ -128,7 +132,7 @@ function Body() {
               <a className='pt-5 text-gray-500'>Read More</a>
             </div>
           </div>
-          <div className='flex pt-14 md:pt-0 lg:w-[33%] py-15 '>
+          <div className='flex pt-14 md:pt-0 lg:w-[33%] py-15 pb-10 '>
             <div className=''>
               <img src='../public/product-2.png' className='w-32 absolute z-10'></img>
               <div className='relative h-24 w-24 bg-gray-200 rounded-xl pt-5 pl-15 z-0 top-4 left-5'></div>
@@ -154,10 +158,14 @@ function Body() {
 
 
         <section className='container px-10 md:px-20 lg:px-32'>
-          <Carousel>
+          <Carousel plugins={[
+        Autoplay({
+          delay: 2000,
+        }),
+      ]}>
             <CarouselContent>
               <CarouselItem>
-              <div className=' pl-5 pt-7 md:pt-24 xl:pl-20 lg:pl-15 md:px-20 sm:px-20'>
+              <div className=' pl-5 pt-7 md:pt-24 xl:pl-20 lg:pl-15 md:px-20 sm:px-20 '>
                       <div className=' flex flex-col items-center gap-1'>
                         <h1 className='text-3xl font-semibold text-center'>Testimonials</h1>
                         <p className='text-xl font-normal text-center text-gray-500 w-7/12 py-10'>“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”</p>

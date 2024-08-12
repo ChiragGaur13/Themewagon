@@ -14,19 +14,7 @@ function Navbar() {
 
           {
             show ? (
-              // <div className='flex flex-col justify-center items-center'>
-              
-              // <BiMenu className='h-11 w-20 md:hidden text-gray-300 ' onClick={clickIcon}/>
-              //   <ul className=' text-gray-400 gap-8 px-16 flex flex-col md:hidden'>
-              //     <li><a className='text-white ' href=''>Home</a></li>
-              //     <li><a className='hover:text-white' href=''>Shop</a></li>
-              //     <li><a className='hover:text-white' href=''>About us</a></li>
-              //     <li><a className='hover:text-white ' href=''>Services</a></li>
-              //     <li><a className='hover:text-white ' href=''>Blog</a></li>
-              //     <li><a className='hover:text-white ' href=''>Contact us</a></li>
-              //   </ul>
-              //   </div>
-
+            
               <div className=''>  
                 <nav className='flex bg-emerald-800 py-6'>
                   <div className='flex w-full items-center'>
