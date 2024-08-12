@@ -163,12 +163,15 @@ function Body() {
           delay: 2000,
         }),
       ]}>
+
+<h1 className='text-3xl font-semibold text-center pt-10 md:pt-24'>Testimonials</h1>
+
             <CarouselContent>
               <CarouselItem>
-              <div className=' pl-5 pt-7 md:pt-24 xl:pl-20 lg:pl-15 md:px-20 sm:px-20 '>
+
+              <div className=' pl-5 pt-7  xl:pl-20 lg:pl-15 md:px-20 sm:px-20 '>
                       <div className=' flex flex-col items-center gap-1'>
-                        <h1 className='text-3xl font-semibold text-center'>Testimonials</h1>
-                        <p className='text-xl font-normal text-center text-gray-500 w-7/12 py-10'>“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”</p>
+                        <p className='text-xl font-normal text-center text-gray-500 w-10/12 py-10'>“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”</p>
                         <img src='../public/person-1.png' className='w-20 h-20 rounded-full'></img>
                         <h1 className='font-semibold'>Maria Jones</h1>
                         <p className='text-gray-500'>CEO, Co-Founder, XYZ Inc.</p>
@@ -176,10 +179,10 @@ function Body() {
                     </div>
               </CarouselItem>
               <CarouselItem>
-              <div className=' pl-5 pt-7 md:pt-24 xl:pl-20 lg:pl-15 md:px-20 sm:px-20'>
+              <div className=' pl-5 pt-7 xl:pl-20 lg:pl-15 md:px-20 sm:px-20'>
                       <div className=' flex flex-col items-center gap-1'>
-                        <h1 className='text-3xl font-semibold text-center'>Testimonials</h1>
-                        <p className='text-xl font-normal text-center text-gray-500 w-7/12 py-10'>“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”</p>
+                        {/* <h1 className='text-3xl font-semibold text-center'>Testimonials</h1> */}
+                        <p className='text-xl font-normal text-center text-gray-500 w-10/12 py-10'>“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”</p>
                         <img src='../public/person-1.png' className='w-20 h-20 rounded-full'></img>
                         <h1 className='font-semibold'>Maria Jones</h1>
                         <p className='text-gray-500'>CEO, Co-Founder, XYZ Inc.</p>
@@ -187,10 +190,10 @@ function Body() {
                     </div>
               </CarouselItem>
               <CarouselItem>
-              <div className=' pl-5 pt-7 md:pt-24 xl:pl-20 lg:pl-15 md:px-20 sm:px-20'>
+              <div className=' pl-5 pt-7 xl:pl-20 lg:pl-15 md:px-20 sm:px-20'>
                       <div className=' flex flex-col items-center gap-1'>
-                        <h1 className='text-3xl font-semibold text-center'>Testimonials</h1>
-                        <p className='text-xl font-normal text-center text-gray-500 w-7/12 py-10'>“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”</p>
+                        {/* <h1 className='text-3xl font-semibold text-center'>Testimonials</h1> */}
+                        <p className='text-xl font-normal text-center text-gray-500 w-10/12 py-10'>“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”</p>
                         <img src='../public/person-1.png' className='w-20 h-20 rounded-full'></img>
                         <h1 className='font-semibold'>Maria Jones</h1>
                         <p className='text-gray-500'>CEO, Co-Founder, XYZ Inc.</p>

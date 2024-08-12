@@ -16,7 +16,7 @@ function Navbar() {
             show ? (
             
               <div className=''>  
-                <nav className='flex bg-emerald-800 py-6'>
+                <nav className='flex bg-[#3b5d50] py-6'>
                   <div className='flex w-full items-center'>
                     <h1 className='text-white text-4xl pl-10 font-semibold xl:pl-20 lg:pl-15 md:pl-20 sm:pl-20 '>Furni</h1>
                     <div className='flex justify-end items-center w-full'>
@@ -24,7 +24,7 @@ function Navbar() {
                     </div>
                   </div>
                 </nav>
-                  <div className='bg-emerald-800 px-20'>
+                  <div className='bg-[#3b5d50] px-20'>
                       <ul className=' text-gray-400  flex flex-col md:hidden gap-5'>
                         <li><a className='text-white ' href=''>Home</a></li>
                         <li><a className='hover:text-white' href=''>Shop</a></li>
@@ -43,7 +43,7 @@ function Navbar() {
 
             ) : (     
               <div className=''>  
-                <nav className='flex bg-emerald-800 py-6'>
+                <nav className='flex bg-[#3b5d50] py-6'>
                   <div className='flex w-full items-center'>
                     <h1 className='text-white text-4xl pl-10 font-semibold xl:pl-20 lg:pl-15 md:pl-20 sm:pl-20 '>Furni</h1>
           
